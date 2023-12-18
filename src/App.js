@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   const [tap, setTap] = useState(0)
   return (
-    <div id='tap'>
+    <div id='tap' className='container'>
       <ul className='d-flex'>
         {
           gnbjson.map((v, i) => {
