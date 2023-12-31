@@ -4,6 +4,7 @@ import App from './App';
 import Bootnav from './Bootnav';
 import { BrowserRouter } from 'react-router-dom';
 import Content from './Content';
+import Scroll from './useRef/Scroll';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,7 @@ root.render(
     <Bootnav></Bootnav>
     <Content></Content>
     <App />
+    <Scroll></Scroll>
   </BrowserRouter>
 );
 

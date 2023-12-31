@@ -3,7 +3,6 @@ import gnbjson from './data/gnb.json'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-
 function App() {
   const [tap, setTap] = useState(0)
   return (
