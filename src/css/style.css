@@ -5,3 +5,15 @@
     justify-content: center;
     margin: 5rem;
 }
+
+#BWArea {
+    height: 20rem;
+    /* text-align: center; */
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
