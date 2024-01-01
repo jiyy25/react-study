@@ -11,9 +11,23 @@
     /* text-align: center; */
     /* display: inline-block; */
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    color: yellow;
+    background-color: black;
 
 }
 
+#BWArea.whiteMode {
+    color: black;
+    background-color: white;
+}
+
+#BWArea h1::before{
+    content: 'BlACK';
+}
+
+#BWArea.whiteMode h1::before{
+    content: 'WHITE';
+}
