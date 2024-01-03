@@ -54,12 +54,12 @@ function Blackwhite() {
     }, [num]);
 
     
-    useEffect(() => {
-        const autoColor = setInterval(() => {
-            colorChange()
-        }, 1000);
-        return () => { clearInterval(autoColor) }
-    }, [])
+    // useEffect(() => {
+    //     const autoColor = setInterval(() => {
+    //         colorChange()
+    //     }, 1000);
+    //     return () => { clearInterval(autoColor) }
+    // }, [])
 
     return (
         // <div id='BWArea'
