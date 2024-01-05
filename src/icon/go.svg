@@ -1,0 +1,15 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="ozkwqj21va">
+            <path data-name="사각형 461398" style="fill:#fff;opacity:0" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="ICO / link_go_bk" style="clip-path:url(#ozkwqj21va)">
+        <g data-name="그룹 629335">
+            <path data-name="사각형 461395" transform="rotate(-45 19.936 2.407)" style="fill:#111" d="M0 0h14.021v1.5H0z"/>
+            <path data-name="사각형 461396" transform="translate(6.86 4.139)" style="fill:#111" d="M0 0h9v1.5H0z"/>
+            <path data-name="사각형 461399" transform="rotate(-90 13.75 -.61)" style="fill:#111" d="M0 0h9v1.5H0z"/>
+        </g>
+    </g>
+</svg>

@@ -14,7 +14,7 @@ const Buttoncom = styled.button`
 
 const Mycom = (props) => {
     return (
-        <button className={props.className && props.className} style={{color: props.cls}}> { props.children }</button >
+        <button className={props.className && props.className} style={{ color: props.cls }}> {props.children}</button >
         //props.className이 있으면 뒤에꺼를 내보내랏. 
     )
 }
@@ -40,7 +40,7 @@ function Styledcom() {
             <Mycom cls="gray">헬로우~</Mycom>
             {/* cls..? 먼말인지....*/}
             <Outputcom>나의 손코딩으로 만들어진 컴포넌트에 클래스만 적용한 것</Outputcom>
-            
+
         </div>
     )
 }

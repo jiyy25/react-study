@@ -9,7 +9,8 @@ import Blackwhite from './useRef/Blackwhite';
 import Hello from './useState/Hello';
 import Styledcom from './styled/Styledcom';
 import Btns from './styled/Btns';
-import Preinterview from './useRef/Printerview';
+// import Preinterview from './useRef/Printerview';
+import Inputui from './styled/Inputui';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +23,8 @@ root.render(
     <Blackwhite></Blackwhite> */}
     {/* <Preinterview></Preinterview> */}
     {/* <Styledcom></Styledcom> */}
-    <Btns></Btns>
+    {/* <Btns></Btns> */}
+    <Inputui></Inputui>
   </BrowserRouter>
 );
 
